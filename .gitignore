@@ -1,0 +1,31 @@
+# node
+**/node_modules
+**/voicetransapp/node_modules
+.DS_Store
+**/public/test.wav
+
+# dependencies
+voicetransapp/node_modules
+voicetransapp/.pnp
+voicetransapp/.pnp.js
+
+# testing
+voicetransapp/coverage
+
+# production
+voicetransapp/build
+
+# misc
+voicetransapp/.DS_Store
+voicetransapp/.env.local
+voicetransapp/.env.development.local
+voicetransapp/.env.test.local
+voicetransapp/.env.production.local
+
+voicetransapp/npm-debug.log*
+voicetransapp/yarn-debug.log*
+voicetransapp/yarn-error.log*
+
+# git
+voicetransapp/.gitignore
+voicetransapp/.git
